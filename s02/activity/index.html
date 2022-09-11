@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type = "text/javascript">
+        let user = `[
+    {
+        "_id" : "631a03aeb4a4abc070ba7b97",
+        "username" : "artamiel25",
+        "firstName" : "Azi",
+        "lastName" : "Zubiri",
+        "email" : "kaemebin25@gmail.com",
+        "password" : "Azi.rose25*",
+        "mobileNumber" : "09772916320",
+        "isAdmin" : false,
+        "enrollments" : [ 
+            {
+                "enrollment_id" : "1",
+                "course_id" : "1",
+                "courseName" : "Dattebayo",
+                "isPaid" : true,
+                "dateEnrolled" : "8-1-2022"
+            }
+        ]
+    },
+
+
+    {
+        "_id" : "631a046ab4a4abc070ba7baa",
+        "username" : "flaminghot",
+        "firstName" : "Mickey",
+        "lastName" : "Dolostread",
+        "email" : "dolosobogo@gmail.com",
+        "password" : "flamingbogo*",
+        "mobileNumber" : "09123456789",
+        "isAdmin" : false,
+        "enrollments" : [ 
+            {
+                "enrollment_id" : "2",
+                "course_id" : "2",
+                "courseName" : "Rasengan",
+                "isPaid" : true,
+                "dateEnrolled" : "4-4-2022"
+            }
+        ]
+    }
+]`;
+       
+console.log(user);
+
+
+let course = `[
+    {
+        "_id" : "631a060bb4a4abc070ba7c17",
+        "name" : "Dattebayo",
+        "description" : "Naruto",
+        "price" : 3500,
+        "slots" : 35,
+        "schedule" : "1:00 - 3:00",
+        "instructor" : "Kakashi",
+        "isActive" : true,
+        "enrollees" : [ 
+            {
+                "enrollee_id" : 1,
+                "userId" : "1",
+                "userName" : "artamiel25",
+                "isPaid" : true,
+                "dateEnrolled" : "8-1-2022"
+            }
+        ]
+    },
+
+
+    {
+        "_id" : "631a0672b4a4abc070ba7c27",
+        "name" : "Rasengan",
+        "description" : "Chakra Bilog",
+        "price" : 2500,
+        "slots" : 25,
+        "schedule" : "9:00 - 2:00",
+        "instructor" : "Minato",
+        "isActive" : true,
+        "enrollees" : [ 
+            {
+                "enrollee_id" : "2",
+                "userId" : "2",
+                "userName" : "flaminghot",
+                "isPaid" : true,
+                "dateEnrolled" : "4-4-2022"
+            }
+        ]
+    }
+]`;
+
+console.log(course);
+</script>
+</body>
+</html>

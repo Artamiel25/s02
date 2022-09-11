@@ -1,0 +1,42 @@
+[
+    {
+        "_id" : "631a060bb4a4abc070ba7c17",
+        "name" : "Dattebayo",
+        "description" : "Naruto",
+        "price" : 3500,
+        "slots" : 35,
+        "schedule" : "1:00 - 3:00",
+        "instructor" : "Kakashi",
+        "isActive" : true,
+        "enrollees" : [ 
+            {
+                "enrollee_id" : 1,
+                "userId" : "1",
+                "userName" : "artamiel25",
+                "isPaid" : true,
+                "dateEnrolled" : "8-1-2022"
+            }
+        ]
+    },
+
+
+    {
+        "_id" : "631a0672b4a4abc070ba7c27",
+        "name" : "Rasengan",
+        "description" : "Chakra Bilog",
+        "price" : 2500,
+        "slots" : 25,
+        "schedule" : "9:00 - 2:00",
+        "instructor" : "Minato",
+        "isActive" : true,
+        "enrollees" : [ 
+            {
+                "enrollee_id" : "2",
+                "userId" : "2",
+                "userName" : "flaminghot",
+                "isPaid" : true,
+                "dateEnrolled" : "4-4-2022"
+            }
+        ]
+    }
+]
